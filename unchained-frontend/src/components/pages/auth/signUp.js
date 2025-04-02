@@ -6,19 +6,21 @@ function SignUp() {
             <div className='signup-container'>
                 <h2>Remplissez ce formulaire afin de créer un compte !</h2>
                 <form>
-                    <label>Nom</label>
+                    <label for="lastName">Nom</label>
                     <input type="text" for="lastName"></input>
-                    <label>Prénom</label>
+                    <label for="firstName">Prénom</label>
                     <input type="text" for="firstName"></input>
-                    <label>Username</label>
+                    <label for="username">Username</label>
                     <input type="text" for="username"></input>
-                    <label>Email</label>
+                    <label for="email">Email</label>
                     <input type="email" for="email"></input>
-                    <label>Mot de Passe</label>
+                    <label for="password">Mot de Passe</label>
                     <input type="password" for="password"></input>
-                    <label>Avatar</label>
+                    <label for="password">Entrez à nouveau votre mot de passe</label>
+                    <input type="password" for="password"></input>
+                    <label for="avatar">Avatar</label>
                     <input type="file" for="avatar"></input>
-                    <button>S'inscrire</button>
+                    <button type="submit">S'inscrire</button>
                 </form>
             </div>
         </>
