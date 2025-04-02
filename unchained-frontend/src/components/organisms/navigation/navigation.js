@@ -14,7 +14,7 @@ function Navigation() {
             <Link to="/blog">Blog</Link>
             <Link to="/about">About</Link>
             <SearchBar />
-            <Icons.User />
+            <Icons.User className='user-icon' />
             {/* <DashboardNavLink />
         <ProfilNavLink /> */}
         </nav>
