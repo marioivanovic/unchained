@@ -10,7 +10,7 @@ function SignIn() {
                     <input type="text" name="name"></input>
                     <label for="password">Mot de passe</label>
                     <input type="password" name="password"></input>
-                    <button>Se connecter</button>
+                    <button type="submit">Se connecter</button>
                 </form>
             </div>
         </>
